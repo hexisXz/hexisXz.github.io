@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Site</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      padding: 40px;
+      border-radius: 16px;
+      background: #1e1e1e;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #bbb;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #4f46e5;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #6366f1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>This is a test site cuz im bored</h1>
+    <p>still workin on it</p>
+
+    <button onclick="showMessage()">
+      Click
+    </button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("WIP");
+    }
+  </script>
+
+</body>
+</html>
